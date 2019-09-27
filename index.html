@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" />
+	<link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" />
+	<title>CodePen - Awesome Modal Without Bootstrap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">  
+	<link rel="stylesheet" href="assets/css/style.css">  
+	<style>
+
+</style>
+</head>
+
+<body translate="no" >
+
+  <h1>Awesome Modal Without Bootstrap</h1>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn" class="modal-trigger btn-LoadVideo no-select" data-src="https://www.youtube.com/embed/vlDzYIIOYmM?rel=0&amp;showinfo=0">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <!--<span id="modalClose" class="close no-select">&times;</span>-->
+    <button type="button" class="close"  data-toggle="tooltip" title="Close" data-dismiss="modal">&times;</button>
+	<!-- 16:9 aspect ratio -->
+	<div class="embed-responsive embed-responsive-16by9">
+	  <iframe allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen" class="embed-responsive-item" src="" id="video"  allowscriptaccess="always">></iframe>
+	</div>
+  </div>
+</div>
+
+<!--Developer's Info-->
+	<div class="paragraph" style="text-indent:0; margin: 1em 0;">
+	<ul class="paragraph list" style="text-indent:0;">
+		<li><a class="profiles" href="https://www.linkedin.com/" target='_blank' rel='noopener'><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+		<li><a class="profiles" href="https://github.com/" target='_blank' rel='noopener'><i class="fa fa-github"></i> Github</a></li>
+		<li><a class="profiles" href="https://www.instagram.com/" target='_blank' rel='noopener'><i class="fa fa-instagram"></i> Instagram</a></li>
+		<li><a class="profiles" href="https://www.facebook.com/" target='_blank' rel='noopener'><i class="fa fa-facebook"></i> Facebook</a></li>
+		<li><a class="profiles" href="https://soundcloud.com/" target='_blank' rel='noopener'><i class="fa fa-soundcloud"></i> SoundCloud</a></li>
+		<li><a class="profiles" href="https://twitter.com/" target='_blank' rel='noopener'><i class="fa fa-twitter"></i> Twitter</a></li>
+		<br>
+	</ul>
+	</div>
+  
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://use.fontawesome.com/45c73aaa68.js'></script>
+<script src='assets/js/main.js'></script>
+
+</body>
+</html>
+ 
